@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<root>
+    <options>
+        <option key="sy_dbname">dwmain</option>
+        <option key="sy_hostname">Host Name</option>
+    </options>
+    <shortcuts>
+        <shortcut key="1" command="save_parameters()">Change parameters</shortcut>
+        <shortcut key="D" command="sy_deploy()">Deploy files to the specify unix directory</shortcut>
+        <shortcut key="F" command="fsarchiver.FSArchiver()">FSARCHIVER Backup and Restore</shortcut>
+    </shortcuts>
+</root>

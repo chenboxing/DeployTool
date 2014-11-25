@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<root>
+    <options>
+        <option key="fs_bk_volgroup">Name of the Volume Group</option>
+        <option key="fs_bk_orivol">Name of the Logic Volumn To Backup</option>
+        <option key="fs_bk_snapvol">Name of the Snapshot to Create</option>
+        <option key="fs_bk_snapsize">Space to allocate for the snapshot in the volume group</option>
+        <option key="fs_bk_backupdir">Where to put the backup</option>
+    </options>
+    <shortcuts>
+        <shortcut key="1" command="save_parameters()">Change parameters</shortcut>
+        <shortcut key="D" command="unix.fs_backup()">Backup logic volumn using snapshot</shortcut>
+        <shortcut key="B" command="unix.fs_restore()">Restore a fsa type to a specify logic volumn</shortcut>
+    </shortcuts>
+</root>

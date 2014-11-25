@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<root>
+    <options>
+        <option key="env">Environment</option>
+        <option key="svntag">SVN Tag</option>
+    </options>
+    <shortcuts>
+        <shortcut key="1" command="parameters()">Change Parameters</shortcut>
+        <shortcut key="E" command="export()">Export from svn based on tag name</shortcut>
+        <shortcut key="S" command="sybase.Sybase()">Promote Sybase</shortcut>
+    </shortcuts>
+</root>
